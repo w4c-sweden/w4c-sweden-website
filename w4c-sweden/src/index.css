@@ -17,6 +17,29 @@
   --heading: system-ui, "Segoe UI", Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
+  @import "tailwindcss";
+
+  @theme {
+    /* Brand colors */
+    --color-navy: #17294f;
+    --color-blue: #2f5da8;
+    --color-blue-light: #7fa6e8;
+    --color-red: #d4384e;
+    --color-red-light: #ff8a9a;
+    --color-tint: #eef3fa;
+
+    /* Text & Border colors */
+    --color-text-main: #1b2437;
+    --color-muted: #5a6580;
+    --color-line: #dce4f0;
+
+    /* Dark mode specific colors */
+    --color-dark-bg: #0f1a33;
+    --color-dark-card: #16264a;
+    --color-dark-line: #27395f;
+    --color-dark-tint: #13213f;
+  }
+
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
   color-scheme: light dark;
